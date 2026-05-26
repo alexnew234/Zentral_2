@@ -3,38 +3,108 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Zentral Labs crea webs, apps, automatizaciones y software a medida para digitalizar negocios.">
+    <meta name="description" content="Zentral Labs diseña webs, apps y automatizaciones a medida para digitalizar tu negocio. Soluciones para talleres, clínicas, comercios y autónomos. Presupuesto sin compromiso.">
+    <meta name="keywords" content="diseño web para negocios, desarrollo de aplicaciones, automatizaciones, software a medida, digitalización de empresas, webs profesionales España">
+    <meta name="author" content="Zentral Labs">
+    <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#070b14">
-    <title>Zentral Labs | Webs, apps y automatizaciones para negocios</title>
-    
+    <title>Zentral Labs | Webs, Apps y Automatizaciones para Negocios en España</title>
+
     <link rel="canonical" href="https://zentralabs.es/">
-    
-    <meta property="og:title" content="Zentral Labs | Webs, apps y automatizaciones para negocios">
-    <meta property="og:description" content="Zentral Labs crea webs, apps, automatizaciones y software a medida para digitalizar negocios.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Zentral Labs | Webs, Apps y Automatizaciones para Negocios">
+    <meta property="og:description" content="Zentral Labs diseña webs, apps y automatizaciones a medida para digitalizar tu negocio. Soluciones para talleres, clínicas, comercios y autónomos.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://zentralabs.es/">
     <meta property="og:image" content="https://zentralabs.es/assets/zentral-logo.png">
     <meta property="og:site_name" content="Zentral Labs">
     <meta property="og:locale" content="es_ES">
 
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Zentral Labs | Webs, Apps y Automatizaciones para Negocios">
+    <meta name="twitter:description" content="Zentral Labs diseña webs, apps y automatizaciones a medida para digitalizar tu negocio.">
+    <meta name="twitter:image" content="https://zentralabs.es/assets/zentral-logo.png">
+
+    <!-- Schema: Organization -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
+      "@type": "ProfessionalService",
       "name": "Zentral Labs",
       "url": "https://zentralabs.es/",
       "logo": "https://zentralabs.es/assets/zentral-logo.png",
-      "description": "Creamos webs, apps y automatizaciones para negocios que quieren avanzar.",
+      "image": "https://zentralabs.es/assets/zentral-logo.png",
+      "description": "Zentral Labs diseña webs, apps, automatizaciones y software a medida para digitalizar negocios en España.",
+      "priceRange": "$$",
+      "areaServed": "ES",
+      "serviceType": ["Diseño web", "Desarrollo de aplicaciones", "Automatizaciones", "Software a medida"],
       "contactPoint": {
         "@type": "ContactPoint",
         "email": "ZentralLabs@gmail.com",
-        "contactType": "Customer Service"
+        "contactType": "Customer Service",
+        "availableLanguage": "Spanish"
       },
       "sameAs": [
         "https://www.instagram.com/zentral_labs"
       ]
     }
     </script>
+
+    <!-- Schema: WebSite con Sitelinks Searchbox -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Zentral Labs",
+      "url": "https://zentralabs.es/"
+    }
+    </script>
+
+    <!-- Schema: FAQ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué tipo de proyectos desarrolla Zentral Labs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Desarrollamos webs profesionales, aplicaciones de gestión, automatizaciones de procesos, dashboards empresariales y software a medida para cualquier tipo de negocio."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta una web o aplicación hecha por Zentral Labs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cada proyecto es diferente y el presupuesto se adapta a las necesidades reales del negocio. Contáctanos sin compromiso para recibir una propuesta personalizada."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Para qué sectores trabajáis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trabajamos con talleres, detailing, reformas, clínicas, academias, barberías, tiendas, autónomos y empresas de servicios, entre otros sectores."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto tiempo tarda en estar lista mi web o app?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los plazos dependen de la complejidad del proyecto. Una web profesional suele estar lista en pocos días. Las aplicaciones a medida pueden requerir más tiempo según sus funcionalidades."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
     <link rel="icon" type="image/png" href="assets/zentral-symbol.png">
     <link rel="preconnect" href="https://www.instagram.com">
     <link rel="stylesheet" href="css/styles.css">
@@ -298,15 +368,51 @@
       </section>
     </main>
 
+    <section class="section-shell faq" id="faq" aria-labelledby="faq-heading">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Preguntas frecuentes</p>
+        <h2 id="faq-heading">Lo que nos suelen preguntar los negocios</h2>
+      </div>
+      <div class="faq-grid">
+        <details class="faq-item reveal">
+          <summary><h3>¿Qué tipo de proyectos desarrolláis?</h3></summary>
+          <p>Desarrollamos <a href="#servicios">webs profesionales, aplicaciones de gestión y automatizaciones</a> a medida para cualquier tipo de negocio, desde tiendas hasta empresas de servicios.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary><h3>¿Cuánto cuesta una web o aplicación?</h3></summary>
+          <p>Cada proyecto es diferente y el presupuesto se adapta a las necesidades reales de tu negocio. <a href="#contacto">Contáctanos sin compromiso</a> para recibir una propuesta personalizada.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary><h3>¿Para qué sectores trabajáis?</h3></summary>
+          <p>Trabajamos con talleres, detailing, reformas, clínicas, academias, barberías, tiendas, autónomos y empresas de servicios. Consulta todos los <a href="#sectores">sectores que atendemos</a>.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary><h3>¿Cuánto tiempo tarda en estar lista mi web o app?</h3></summary>
+          <p>Los plazos dependen del proyecto. Una web profesional suele estar lista en pocos días. Conoce nuestro <a href="#proceso">proceso de trabajo</a> paso a paso.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary><h3>¿Podéis mantener y mejorar el proyecto después?</h3></summary>
+          <p>Sí. Ajustamos, ampliamos y optimizamos la solución según evolucione tu negocio. <a href="#contacto">Escríbenos</a> y hablamos de cómo podemos seguir ayudándote.</p>
+        </details>
+      </div>
+    </section>
+
     <footer class="site-footer">
       <div>
         <a class="footer-brand-text" href="#inicio">Zentral Labs</a>
         <p>Webs, apps y automatizaciones para negocios.</p>
       </div>
-      <div class="footer-links">
+      <nav class="footer-links" aria-label="Navegación secundaria">
+        <a href="#servicios">Servicios</a>
+        <a href="#sectores">Sectores</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#por-que">Por qué nosotros</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacto">Contacto</a>
         <a href="https://www.instagram.com/zentral_labs" target="_blank" rel="noopener noreferrer">Instagram</a>
         <a href="mailto:ZentralLabs@gmail.com">ZentralLabs@gmail.com</a>
-      </div>
+      </nav>
+      <p class="footer-legal">© <span id="footer-year"></span> Zentral Labs. Todos los derechos reservados.</p>
     </footer>
 
     <script src="js/main.js" defer></script>
